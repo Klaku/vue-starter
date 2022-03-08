@@ -1,0 +1,24 @@
+{
+  "name": "vue-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klaku/vue-starter.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "dialer": "https://bitbucket.org/pdombrowski/dialer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klaku/vue-starter/issues"
+  },
+  "homepage": "https://github.com/Klaku/vue-starter#readme"
+}
