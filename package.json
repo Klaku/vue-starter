@@ -12,8 +12,9 @@
     "url": "git+https://github.com/Klaku/vue-starter.git"
   },
   "dependencies": {
-    "express": "^4.16.4",
-    "dialer": "https://bitbucket.org/pdombrowski/dialer.git"
+    "dialer": "https://bitbucket.org/pdombrowski/dialer.git",
+    "dotenv": "^16.0.0",
+    "express": "^4.16.4"
   },
   "author": "",
   "license": "ISC",

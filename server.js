@@ -2,11 +2,13 @@ const express = require("express");
 const res = require("express/lib/response");
 const app = express();
 const Dialer = require("dialer").Dialer;
+require('dotenv').config();
 let bridge;
+console.log(process.env.NODE_SERVER_LOGIN, process.env.NODE_SERVER_PASSWORD)
 const config = {
   url: "https://uni-call.fcc-online.pl",
-  login: "focus01",
-  password: "234rwefgdfb",
+  login: process.env.NODE_SERVER_LOGIN,
+  password: process.env.NODE_SERVER_PASSWORD,
 };
 Dialer.configure(config);
 app.listen(3000, () => {
